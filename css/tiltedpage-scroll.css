@@ -1,0 +1,256 @@
+.tps-section {
+    width: 100%;
+    height: 500px;
+    -webkit-perspective: 10em;
+    -moz-perspective: 10em;
+    -ms-perspective: 10em;
+    -o-perspective: 10em;
+    perspective: 10em;
+    -webkit-perspective-origin: center bottom;
+    -moz-perspective-origin: center bottom;
+    -ms-perspective-origin: center bottom;
+    -o-perspective-origin: center bottom;
+    perspective-origin: center bottom;
+    -webkit-perspective-origin: 50% 50%;
+    -moz-perspective-origin: 50% 50%;
+    -ms-perspective-origin: 50% 50%;
+    -o-perspective-origin: 50% 50%;
+    perspective-origin: 50% 50%;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+
+.tps-wrapper {
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: #E6E6E9;
+    padding: 0;
+    text-align: center;
+    font-family: 'open sans';
+    position: relative;
+    margin: 0;
+    height: 100%;
+}
+
+.wrapper {
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+h1,
+h2 {
+    width: 100%;
+    float: left;
+}
+
+h1 {
+    margin-top: 100px;
+    color: #999;
+    margin-bottom: 5px;
+    font-size: 70px;
+    font-weight: 100;
+}
+
+h2 {
+    padding: 00px 20px 30px 20px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    letter-spacing: 0px;
+    color: #888;
+    font-size: 20px;
+    line-height: 160%;
+    font-weight: 100;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+
+pre {
+    margin: 80px auto;
+}
+
+pre code {
+    padding: 35px;
+    border-radius: 5px;
+    font-size: 15px;
+    background: rgba(0, 0, 0, 0.1);
+    border: rgba(0, 0, 0, 0.05) 5px solid;
+    max-width: 500px;
+}
+
+
+.main {
+    float: left;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.main h1 {
+    padding: 20px 50px 10px;
+    float: left;
+    width: 100%;
+    font-size: 60px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-weight: 100;
+    margin: 0;
+    padding-top: 55px;
+    font-family: 'Open Sans';
+    letter-spacing: -1px;
+    text-transform: capitalize;
+}
+
+.main h1.demo1 {
+    background: #1ABC9C;
+}
+
+.reload,
+.btn {
+    display: inline-block;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    display: inline-block;
+    line-height: 100%;
+    padding: 0.7em;
+    text-decoration: none;
+    width: 100px;
+    line-height: 140%;
+    font-size: 17px;
+    font-family: Open Sans;
+    font-weight: bold;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: #4D90FE;
+    background-image: -webkit-linear-gradient(top, #4D90FE, #4787ED);
+    background-image: -webkit-moz-gradient(top, #4D90FE, #4787ED);
+    background-image: linear-gradient(top, #4d90fe, #4787ed);
+    border: 1px solid #3079ED;
+    color: #FFF;
+}
+
+
+
+.page-container {
+    float: left;
+    width: 100%;
+    margin: 0 auto 300px;
+    position: relative;
+}
+
+.panorama {
+    width: 100%;
+    float: left;
+    margin-top: -5px;
+    height: 700px;
+}
+
+.main {
+    margin-bottom: 350px;
+    overflow: hidden;
+}
+
+.tps-section {
+    width: 100% !important;
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 500px;
+}
+
+.tps-section .tps-wrapper {
+    border-radius: 5px;
+}
+
+.tps-section .tps-wrapper h1 {
+    position: relative;
+    height: 100%;
+    position: absolute;
+}
+
+.tps-section .tps-wrapper h1 a {
+    color: white;
+    font-weight: bolder;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    padding-top: 225px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    left: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 20px;
+    font-size: 14px;
+    line-height: 190%;
+}
+
+.tps-section .tps-wrapper h1 a small {
+    text-transform: none;
+    font-style: italic;
+    font-weight: 400;
+    font-family: noto serif;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.tps-section:nth-child(1n+1) .tps-wrapper {
+    background: url(flagitaly.jpg) center center;
+    background-size: cover;
+}
+
+.tps-section:nth-child(2n+1) .tps-wrapper {
+    background: url(flaggreece.jpg) center center;
+    background-size: cover;
+}
+
+.tps-section:nth-child(3n+1) .tps-wrapper {
+    background: url(flagcroatia.jpg) center center;
+    background-size: cover;
+}
+
+.tps-section:nth-child(4n+1) .tps-wrapper {
+    background: url(flagfrance.jpg) center center;
+    background-size: cover;
+}
+
+.tps-section:nth-child(5n+1) .tps-wrapper {
+    background: url(flagdubai.jpg) center center;
+    background-size: cover;
+}
+
+.tps-section:nth-child(6n+1) .tps-wrapper {
+    background: url(flagspain.jpg) center center;
+    background-size: cover;
+}
+
+.header {
+    overflow: hidden;
+    clear: both;
+}
